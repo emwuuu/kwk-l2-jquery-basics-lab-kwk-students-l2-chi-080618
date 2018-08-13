@@ -14,6 +14,7 @@ $('#equals').on('click', function(){
   num1 = parseFloat(num1.val());
   num2 = parseFloat(num2.val());
   operator = operator.val();
+<<<<<<< HEAD
   result(num1,num2,operator);
 }) 
 }
@@ -53,5 +54,36 @@ function validate(operator,num1,num2){
   
  
 
+=======
+  result(num1,num2,operator)
+  
+
+// function validate(operator,num1,num2){
+//   val_1=isNaN(num1);
+//   val_2=isNaN(num2);
+//   val_op=isNaN(operator);
+  
+  // if (val_1 === false && val_2 === false && val_op === true){
+  //   $('#equals').on('click',function(result){
+  //   else {
+  //     console.log("Sorry, one of those is not a valid number!")}
+  //   }
+  // }
+  
+}
+
+function result(1,2,+){
+  if (operator == "+"){
+    ans = num1 + num2;
+    console.log(ans)
+  }
+}
+
+}}
+  
+ 
+});
+}
+>>>>>>> 016af34d979d3a372eff7b29b99c3ccab0e5b635
 
 
